@@ -1,0 +1,782 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Plain Bold";
+  src: url(font/Plain-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Plain";
+  src: url(font/Plain-Light.woff);
+  font-weight: 100;
+  font-style: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1112px;
+  margin: 0 auto;
+}
+
+/* Header_background part of the Website......................................................................... */
+
+.header_bg {
+  width: 100%;
+  height: 70px;
+  background-color: #17181a;
+}
+
+.header_bg .header {
+  width: 1112px;
+  height: 70px;
+  background-color: #17181a;
+}
+
+.header_bg .header h1 {
+  color: #fbfaf6;
+  line-height: 70px;
+  float: left;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Plain bold";
+}
+
+.header_bg .header h1:hover {
+  color: #d3361c;
+  cursor: pointer;
+  transition: all 0.5s;
+  transition-delay: 0.2s;
+}
+
+.header nav ul {
+  float: right;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+.header nav ul li {
+  float: left;
+}
+
+.header nav ul .none {
+  margin-right: 0px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Plain";
+  font-weight: normal;
+  padding-right: 40px;
+}
+
+.header nav ul li a:hover {
+  color: #d3361c;
+  transition: all.5s;
+  transition-delay: 0.1s;
+}
+
+.header ul li .fa-facebook-f {
+  padding-left: 44px;
+}
+
+.header ul li .fa-facebook-f,
+.header ul li .fa-twitter,
+.header ul li .fa-instagram {
+  color: #fff;
+  font-size: 12px;
+  float: right;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.header ul li .fa-facebook-f:hover,
+.header ul li .fa-twitter:hover,
+.header ul li .fa-instagram:hover {
+  color: #d3361c;
+  transition: all 0.5s;
+  transition-delay: 0.1s;
+}
+
+/* Banner part of the Website.......................................................................................... */
+
+.banner {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/hero-bg.jpg");
+}
+
+.banner .background-opacity {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  opacity: 0.9;
+}
+
+.background-opacity .text_detail {
+  width: 584px;
+  padding-top: 140px;
+  z-index: 1;
+}
+
+.background-opacity .text_detail p1 {
+  color: #fff;
+  width: 584px;
+  font-size: 19px;
+  font-family: "Plain";
+  font-weight: normal;
+  text-align: center;
+}
+
+.background-opacity .text_detail h1 {
+  color: #fff;
+  width: 584px;
+  font-size: 40px;
+  padding-top: 26px;
+  text-align: center;
+  font-family: "Plain Bold";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text_detail .learn_more_btn,
+.text_detail .get_started_btn {
+  width: 122px;
+  color: #e0341b;
+  line-height: 42px;
+  outline: none;
+  background-color: #191a1c;
+  margin-top: 38px;
+  border: solid 1px #e0341b;
+}
+
+.text_detail .learn_more_btn {
+  border: none;
+  color: #fff;
+  border: solid 1px #ffffff;
+}
+
+.text_detail .get_started_btn:hover {
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: none;
+  border: solid 1px #191a1c;
+}
+
+.text_detail .learn_more_btn:hover {
+  border: none;
+  color: #e0341b;
+  cursor: pointer;
+  background-color: none;
+  border: solid 1px #e0341b;
+}
+
+/* Detail part of the Website......................................................*/
+
+.detail {
+  width: 100%;
+  height: 498px;
+  background-color: #171819;
+}
+
+.detail .gym_detail {
+  width: 852px;
+  height: 375px;
+  background-color: #171819;
+}
+
+.detail .gym_detail ul {
+  float: left;
+}
+
+.detail .gym_detail ul li {
+  width: 406px;
+}
+
+.detail .gym_detail ul li .new_gym {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Plain Bold";
+  font-weight: bolder;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.detail .gym_detail ul li p1,
+.detail .gym_detail ul .month_fees {
+  font-family: "Plain";
+  font-weight: 100;
+  font-style: normal;
+}
+
+.detail .gym_detail ul li p1 {
+  color: #fff;
+  font-size: 22px;
+  width: 318px;
+}
+
+.detail .gym_detail ul .month_fees {
+  color: #4f4d4d;
+  font-size: 17px;
+  text-align: justify;
+  padding-top: 14px;
+}
+
+.detail .gym_detail ul .gym_membership a {
+  width: 420px;
+  color: #fff;
+  line-height: 51px;
+  text-align: center;
+  font-family: "Plain";
+  font-style: normal;
+  display: block;
+  margin-top: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #f13a11;
+}
+
+.detail .gym_detail .gym_membership a:hover {
+  color: #f13a11;
+  background-color: #fff;
+}
+
+.detail .working_hour {
+  width: 233px;
+  margin-top: 5px;
+}
+
+.detail .working_hour ul {
+  margin-top: 110px;
+  margin-right: 70px;
+}
+
+.detail .working_hour ul li h4 {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Plain Bold";
+  font-weight: bolder;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.working_hour ul li p2 {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Plain";
+  font-weight: bolder;
+}
+
+.working_hour ul li span {
+  color: #646060;
+}
+
+.detail .working_hour {
+  float: left;
+  margin-left: 137px;
+}
+
+/* Gym Instructor detail part of the Website............................................................................... */
+
+.samyak_fitness {
+  width: 100%;
+  height: 498px;
+  background-color: #f9f9f9;
+}
+
+.we_are_samyak {
+  width: 852px;
+  height: 468px;
+  background-color: #f9f9f9;
+}
+
+.we_are_samyak .gym_details {
+  float: left;
+}
+
+.gym_details h3 span {
+  color: #f13a11;
+  font-size: 45px;
+}
+
+.gym_details h3 {
+  color: #212529;
+}
+
+.gym_details h3,
+.gym_details h3 span {
+  font-size: 22px;
+  font-family: "Plain Bold";
+  font-weight: bolder;
+  padding-top: 120px;
+  padding-bottom: 15px;
+}
+
+.we_are_samyak .gym_details li {
+  width: 245px;
+}
+
+.we_are_samyak .gym_details p1 {
+  color: #767373;
+  font-size: 12px;
+  font-family: "Plain";
+  text-align: justify;
+  font-weight: normal;
+}
+
+.we_are_samyak .female_gym_instructor {
+  width: 580px;
+}
+
+.female_gym_instructor .female_instructor_1 {
+  float: left;
+  left: 60px;
+  top: 60px;
+}
+
+.female_gym_instructor .female_instructor_2 {
+  left: 273px;
+  float: right;
+  top: -296px;
+}
+
+.female_gym_instructor .female_instructor_1,
+.female_gym_instructor .female_instructor_2 {
+  width: 254px;
+  height: 356px;
+  position: relative;
+  background-color: #fff;
+}
+
+.female_gym_instructor .female_instructor_1 img,
+.female_gym_instructor .female_instructor_2 img {
+  width: 254px;
+  height: 256px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.female_instructor_1 li h4,
+.female_instructor_2 li h4 {
+  left: 22px;
+  top: 276px;
+  color: #212529;
+  font-size: 27px;
+  font-family: "Plain Bold";
+  position: absolute;
+}
+
+.female_instructor_1 li .fa-twitter,
+.female_instructor_2 li .fa-twitter {
+  top: 290px;
+  right: 30px;
+}
+
+.female_instructor_1 li .fa-instagram,
+.female_instructor_2 li .fa-instagram {
+  bottom: 24px;
+  right: 30px;
+}
+
+.female_instructor_1 li .fa-twitter,
+.female_instructor_2 li .fa-twitter,
+.female_instructor_1 li .fa-instagram,
+.female_instructor_2 li .fa-instagram {
+  color: #646060;
+  position: absolute;
+  font-size: 17px;
+}
+
+.female_instructor_1 li .fa-twitter:hover,
+.female_instructor_2 li .fa-twitter:hover,
+.female_instructor_1 li .fa-instagram:hover,
+.female_instructor_2 li .fa-instagram:hover {
+  color: #f13a11;
+  cursor: pointer;
+  transition: all 0.5s;
+  transition-delay: 0.1s;
+}
+
+.female_instructor_1 li p1,
+.female_instructor_2 li p1 {
+  bottom: 24px;
+  left: 22px;
+  color: #646060;
+  font-size: 17px;
+  font-family: "Plain";
+  font-weight: normal;
+  position: absolute;
+}
+
+.training_classes {
+  width: 100%;
+  height: 630px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Training Classes part of the Website.......................................................................................... */
+
+.training_classes .training_class {
+  width: 852px;
+  height: 630px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.training_class p1 {
+  left: 350px;
+  top: 70px;
+  font-weight: normal;
+  color: #b5b1ab;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Plain";
+  position: absolute;
+}
+
+.training_class h1 {
+  color: #1b272c;
+  font-size: 24px;
+  position: absolute;
+  top: 90px;
+  left: 295px;
+  font-family: "Plain Bold";
+}
+
+.training_class .aerobic {
+  left: 294px;
+}
+
+.training_class .cardio {
+  right: 0px;
+}
+
+.training_class .yoga,
+.training_class .aerobic,
+.training_class .cardio {
+  width: 264px;
+  height: 360px;
+  top: 200px;
+  position: absolute;
+  box-shadow: 0px 0px 1px 0px rgb(131, 131, 131);
+  background-color: #fff;
+}
+
+.training_class .yoga img,
+.training_class .aerobic img,
+.training_class .cardio img {
+  width: 264px;
+  height: 200px;
+}
+
+.training_class .yoga h3,
+.training_class .aerobic h3,
+.training_class .cardio h3 {
+  color: #1b272c;
+  font-size: 29px;
+  font-family: "Plain Bold";
+  padding: 8px 0px 8px 24px;
+}
+
+.training_class .yoga p3,
+.training_class .aerobic p3,
+.training_class .cardio p3 {
+  color: #b5b1ab;
+  font-size: 12px;
+  padding: 0px 0px 0px 24px;
+  font-family: "Plain Bold";
+}
+
+.training_class .yoga span,
+.training_class .aerobic span,
+.training_class .cardio span {
+  color: #292929;
+}
+
+.training_class .yoga p5,
+.training_class .aerobic p5,
+.training_class .cardio p5 {
+  color: #b5b1ab;
+  font-size: 13px;
+  width: 198px;
+  font-family: "Plain";
+  text-align: justify;
+  padding: 15px 0px 24px 24px;
+}
+
+.training_class .yoga h5,
+.training_class .aerobic h5,
+.training_class .cardio h5 {
+  color: #fff;
+  width: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: 82px;
+  font-family: "Plain Bold";
+  background-color: #f13a12;
+}
+
+/* Gym Schedule Part of the Website (Time Table)......................................................................... */
+
+.schedules {
+  width: 100%;
+  height: 556px;
+  background-color: #17181a;
+}
+
+.schedules .gym_schedule {
+  width: 1112px;
+  height: 530px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #17181a;
+}
+
+.gym_schedule p1 {
+  color: #868b7a;
+  font-size: 15px;
+  top: 76px;
+  left: 470px;
+  font-family: "Plain";
+  font-weight: normal;
+  text-align: center;
+  position: absolute;
+}
+
+.gym_schedule h4 {
+  color: #fff;
+  top: 96px;
+  left: 458px;
+  position: absolute;
+  font-size: 23px;
+  font-family: "Plain Bold";
+}
+
+.gym_schedule table {
+  width: 958px;
+  top: 170px;
+  left: 80px;
+  border: 0px;
+  position: absolute;
+  border: solid 1px #17181a;
+}
+
+.gym_schedule table .calender {
+  width: 85px;
+  height: 40px;
+  background-color: #f13a12;
+}
+
+.gym_schedule table th {
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  font-size: 12px;
+  border-bottom: 0px;
+  font-family: "Plain Bold";
+  background-color: #f13a12;
+}
+
+.gym_schedule table .timing {
+  width: 65px;
+  height: 55px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Plain";
+  font-weight: normal;
+  background-color: #f13a12;
+}
+
+.gym_schedule table td {
+  width: 140px;
+  height: 55px;
+  color: #fff;
+  text-align: center;
+  background-color: #17181a;
+  border: solid 1px #222222;
+}
+
+.gym_schedule table td h6 {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Plain Bold";
+}
+
+.gym_schedule table td p7 {
+  font-size: 10px;
+  color: #80817b;
+  font-family: "Plain";
+  text-align: center;
+}
+
+/* Contact Us part of the Website....................................................................................... */
+
+.contact {
+  width: 100%;
+  height: 570px;
+  background-color: #fff;
+}
+
+.contact .contact_us {
+  width: 852px;
+  height: 540px;
+  background-color: #ffffff;
+}
+
+.contact .contact_us form {
+  float: left;
+  width: 312px;
+  margin-top: 65px;
+}
+
+.contact_us form h1 {
+  color: #17181a;
+  font-size: 24px;
+  padding-bottom: 26px;
+  font-family: "Plain Bold";
+}
+
+.contact_us form .name,
+.contact_us form .email {
+  margin-bottom: 24px;
+  line-height: 45px;
+  background-color: #fff;
+  border: solid 1px #222222;
+}
+
+.contact_us form a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  line-height: 45px;
+  background-color: #17181a;
+}
+
+.contact_us form a:hover {
+  background-color: #f13a11;
+}
+
+.contact_us form .name,
+.contact_us form .email,
+.contact_us form a {
+  width: 312px;
+  font-size: 15px;
+  font-family: "Plain";
+  padding-left: 12px;
+  outline: none;
+}
+
+.contact_us form .name:focus {
+  outline: none;
+}
+
+.contact_us form .email:focus {
+  outline: none;
+}
+
+.contact_us form .message_text {
+  width: 312px;
+  font-size: 15px;
+  font-family: "Plain";
+  padding-left: 12px;
+  padding-top: 12px;
+  outline: none;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: solid 1px #222222;
+}
+
+.contact_us form .message_text:hover {
+  outline: none;
+}
+
+.contact_us .location {
+  width: 380px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 65px;
+}
+
+.contact_us .location h1 {
+  color: #17181a;
+  font-size: 24px;
+  padding-bottom: 26px;
+  font-family: "Plain Bold";
+}
+
+.contact_us .location p8 {
+  color: #afafaf;
+  font-size: 15px;
+  width: 190px;
+  font-family: "Plain";
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 20px;
+}
+
+.contact_us .location .google_map {
+  margin-top: 20px;
+}
+
+.footer {
+  width: 852px;
+  margin: 0 auto;
+}
+
+.footer .copyright {
+  width: 360px;
+  float: left;
+  margin: 30px 0;
+}
+
+.footer .copyright p4,
+.footer .copyright p5,
+.footer .number_mail a {
+  color: rgb(66, 66, 66);
+  font-family: "Plain";
+  font-size: 14px;
+}
+
+.footer .number_mail {
+  float: right;
+  margin: 30px 0;
+}
+
+.footer .number_mail a {
+  text-decoration: none;
+}
+
+.footer .number_mail a span {
+  color: #f13a11;
+  padding-right: 5px;
+}

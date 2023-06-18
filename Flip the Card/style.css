@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Lato:wght@900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;600;700&display=swap");
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.the_card_back {
+  width: 466px;
+  height: 900px;
+  margin: 0 auto;
+  margin-top: 17px;
+  border-radius: 50px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.the_card_back .display_dp {
+  width: 446px;
+  height: 900px;
+  background-size: 100%;
+  background-position: inherit;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-image: url(Light_YagamiHD.jpg);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.the_card_back .bio-section {
+  width: 446px;
+  height: 328px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 390px;
+  left: 10px;
+}
+
+.the_card_back .bio-section ul {
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.the_card_back .bio-section ul li {
+  display: block;
+  justify-content: space-between;
+}
+
+.the_card_back .bio-section ul li h1 {
+  color: #000;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.the_card_back .bio-section ul li h1:hover {
+  color: mediumorchid;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.the_card_back .bio-section ul li h3 {
+  color: grey;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.the_card_back .bio-section ul li .male,
+.religon,
+.social,
+.relation {
+  margin-top: 18px 0px 18px 0px;
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+  margin-left: 0px;
+}
+
+.the_card_back .bio-section ul li .male:hover {
+  color: #63c5ea;
+}
+
+.the_card_back .bio-section ul li .religon:hover {
+  color: #7f59b0;
+}
+
+.the_card_back .bio-section ul li .social:hover {
+  color: #fcb424;
+}
+
+.the_card_back .bio-section ul li .relation:hover {
+  color: #ea4b8b;
+}
+
+.the_card_back .bio-section ul li .fas {
+  margin-right: 4px;
+}
+
+.list-2 {
+  margin-top: 28px;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.list-2 li p {
+  color: grey;
+  font-size: 16px;
+  text-align: left;
+  margin: 12px 0px;
+}
+
+.list-2 li p3 {
+  color: grey;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.my-music-genere {
+  display: flex;
+  width: 446px;
+  height: 80px;
+  position: absolute;
+  bottom: 140px;
+  left: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+
+.my-music-genere li img {
+  width: 68px;
+  height: 68px;
+  margin-top: 19px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.my-music-genere li img:hover {
+  transform: scale(1.1);
+}
+
+.bottom-btns {
+  width: 350px;
+  height: 100px;
+  position: absolute;
+  bottom: 15px;
+  left: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.bottom-btns li .fa-times-circle,
+.bottom-btns li .fa-star,
+.bottom-btns li .fa-heart {
+  width: 100px;
+  line-height: 100px;
+  font-size: 70px;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  transition: all.5s;
+}
+
+.bottom-btns li .fa-times-circle {
+  color: #fa4573;
+  content: "";
+}
+
+.bottom-btns li .fa-times-circle:hover {
+  color: #e4325e;
+  transform: scale(1.1) rotate(45deg);
+}
+
+.fa-star {
+  color: #2cb3f8;
+}
+
+.fa-star:hover {
+  color: #209ad6;
+  transform: scale(1.2);
+}
+
+.fa-heart {
+  color: #55edcc;
+}
+
+.fa-heart:hover {
+  color: #3ac2a4;
+  transform: scale(1.2);
+}

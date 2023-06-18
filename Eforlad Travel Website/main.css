@@ -1,0 +1,822 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: radial-gradient(#0c1a3f, #0787a2);
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* Website Fonts................................................................................ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;0,900;1,400;1,600&family=Rajdhani:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;0,900;1,400;1,600&family=Rajdhani:wght@300;700&display=swap");
+
+/* Header part of the Website........................................................................... */
+
+.header_bg {
+  width: 74%;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("images/header-bg.jpg");
+}
+
+.header_bg .header img {
+  float: left;
+  margin-top: 28px;
+}
+
+.header_bg .header nav {
+  float: right;
+  margin-top: 72px;
+}
+
+.header_bg .header nav ul li {
+  float: left;
+}
+
+.header_bg .header nav ul li .none {
+  padding-right: 0px;
+}
+
+.header_bg .header nav ul li a {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  padding-right: 56px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.header_bg .top_navigation_bar li {
+  float: left;
+  margin-right: 64px;
+}
+
+.header_bg .top_navigation_bar li img {
+  margin-right: 5px;
+}
+
+.header_bg .top_navigation_bar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 970px;
+  line-height: 40px;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.header_bg .header nav ul li a:hover {
+  color: #000;
+}
+
+/* Banner part of the Website..................................................................... */
+
+.banner {
+  width: 74%;
+  height: 1004px;
+  background-image: url("images/banner.jpg");
+}
+
+.banner h1 {
+  color: #0adef8;
+  font-size: 90px;
+  font-weight: 800;
+  padding-top: 285px;
+  text-transform: uppercase;
+  line-height: 93px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.banner span {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.banner center a {
+  color: #fff;
+  width: 205px;
+  line-height: 61px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: normal;
+  display: block;
+  background-color: #ee580f;
+  border-radius: 50px;
+  margin-top: 53px;
+  margin-bottom: 90px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.banner center a:hover {
+  background-color: #0adef8;
+}
+
+.banner form {
+  width: 1320px;
+  height: 290px;
+  margin: 0 auto;
+  opacity: 0.9;
+  position: relative;
+  background-color: #fff;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.banner form ul {
+  float: left;
+  margin: 20px 0px 0px 42px;
+}
+
+.banner form h2 {
+  width: 240px;
+  color: #000;
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  top: -50px;
+  left: 0px;
+  font-size: 19px;
+  position: relative;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.banner form ul li label {
+  color: #66667d;
+  font-size: 19px;
+}
+
+.banner form ul li input {
+  width: 282px;
+  line-height: 38px;
+  margin-top: 8px;
+  padding-left: 6px;
+  font-size: 17px;
+}
+
+.banner form ul li input:focus {
+  background-color: rgb(246, 251, 255);
+}
+
+.banner form ul li .search {
+  width: 234px;
+  color: #fff;
+  line-height: 52px;
+  text-align: center;
+  border: none;
+  outline: none;
+  display: block;
+  margin-top: 62px;
+  background-color: #ee580f;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.banner form ul li .search:hover {
+  background-color: #0adef8;
+}
+
+/* Detail Part of the Website........................................................................ */
+
+.about {
+  width: 1880px;
+  height: 790px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.about_detail {
+  width: 870px;
+  margin: 0 auto;
+}
+
+.about hr {
+  width: 150px;
+  height: 1px;
+  float: left;
+  margin-top: 25px;
+  background-color: #13aba6;
+}
+
+.about .about_detail h2 {
+  float: left;
+  color: #0e0f10;
+  font-size: 34px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.about .about_detail h2 {
+  color: #0e0f10;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .about_detail p {
+  width: 870px;
+  color: #0e0f10;
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 38px;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.about .detail {
+  width: 900px;
+  height: 368px;
+  position: relative;
+  margin-top: 30px;
+  border: solid 20px #0c1f44;
+}
+
+.about .detail p {
+  width: 510px;
+  height: 270px;
+  font-size: 19px;
+  float: left;
+  line-height: 31px;
+  padding: 28px 0px 30px 28px;
+}
+
+.about .detail img {
+  top: -51px;
+  right: -170px;
+  width: 590px;
+  height: 460px;
+  position: absolute;
+}
+
+.about .read_moree {
+  width: 200px;
+  color: #fff;
+  border: none;
+  outline: none;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 45px;
+  border-radius: 50px;
+  transition: all 0.5s;
+  background-color: #ee580f;
+}
+
+.about .read_moree:hover {
+  cursor: pointer;
+  transition-delay: 0.3s;
+  background-color: #13aba6;
+}
+
+/* Travelling Detail part of the Website................................................................. */
+
+.travel_detail {
+  width: 1880px;
+  height: 670px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.travel {
+  width: 854px;
+}
+
+.travel_detail .travel hr {
+  width: 100px;
+  height: 1px;
+  float: left;
+  margin-top: 25px;
+  background-color: #13aba6;
+}
+
+.travel_detail .travel h2 {
+  float: left;
+  color: #0e0f10;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.travel_detail .travel p {
+  width: 870px;
+  color: #0e0f10;
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 38px;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.travel_detail .travel_list {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.travel_detail .travel_list ul li {
+  float: left;
+  width: 242px;
+}
+
+.travel_detail .travel_list ul li img {
+  width: 166px;
+  padding-bottom: 8px;
+}
+
+.travel_detail .travel_list ul li h5 {
+  color: #100857;
+  font-size: 30px;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.travel_detail .travel_list ul li p {
+  color: rgb(56, 56, 56);
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.travel_detail .travel_list ul li .list_button {
+  color: #fff;
+  width: 200px;
+  line-height: 60px;
+  font-size: 17px;
+  transition: all 0.5s;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  border-radius: 50px;
+  background-color: #ee580f;
+}
+
+.travel_detail .travel_list ul li .list_button:hover {
+  transition-delay: 0.3s;
+  background-color: #127792;
+}
+
+/* Weekend in London part of thw website................................................................ */
+
+.london_weekend {
+  width: 1880px;
+  margin: 0 auto;
+  height: 640px;
+  background-color: #fff;
+}
+
+.london_tour {
+  width: 870px;
+}
+
+.london_weekend .london_tour hr {
+  width: 100px;
+  height: 1px;
+  float: left;
+  margin-top: 25px;
+  background-color: #13aba6;
+}
+
+.london_weekend .london_tour h2 {
+  float: left;
+  color: #0e0f10;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.london_weekend .london_tour p {
+  width: 870px;
+  color: #0e0f10;
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 38px;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.london_weekend img {
+  width: 1880px;
+  height: 360px;
+}
+
+/* Best Tours part of the Website................................................................ */
+
+.best_tour {
+  width: 1880px;
+  margin: 0 auto;
+  height: 670px;
+  background-color: #fff;
+}
+
+.tours_visit {
+  width: 570px;
+}
+
+.best_tour .tours_visit hr {
+  width: 100px;
+  height: 1px;
+  float: left;
+  margin-top: 25px;
+  background-color: #13aba6;
+}
+
+.best_tour .tours_visit h2 {
+  float: left;
+  color: #0e0f10;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.best_tour .london_detail {
+  width: 890px;
+  margin: 0 auto;
+}
+
+.best_tour .london_detail p {
+  color: #0e0f10;
+  font-size: 22px;
+  font-weight: normal;
+  padding-top: 38px;
+  text-align: center;
+  padding-bottom: 54px;
+}
+
+.london_detail ul li {
+  float: left;
+  width: 276px;
+  margin-right: 30px;
+}
+
+.london_detail ul li img {
+  width: 286px;
+}
+
+.london_detail ul li h5 {
+  color: #000;
+  font-size: 27px;
+  font-weight: normal;
+  padding: 16px 0px 10px 0px;
+}
+
+.london_detail ul li p1 {
+  color: grey;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.london_detail ul .last_london {
+  margin-right: 0px;
+}
+
+/* Amazing tour part of the Website....................................................................... */
+
+.amazing_tour {
+  width: 1880px;
+  height: 602px;
+  background-image: url(images/Amazing.jpg);
+}
+
+.amazing_tour .amazing {
+  width: 870px;
+}
+
+.amazing_tour .amazing center h2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 900;
+  padding-top: 150px;
+  padding-bottom: 24px;
+}
+
+.amazing_tour .amazing p {
+  width: 870px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.amazing_tour .amazing .book_now,
+.amazing_tour .amazing .get_more {
+  color: #fff;
+  width: 182px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 17px;
+  display: block;
+  border-radius: 50px;
+  transition: all 0.4s;
+  margin-top: 20px;
+  background-color: #ee580f;
+}
+
+.amazing_tour .amazing .book_now {
+  float: left;
+  margin-left: 259px;
+}
+
+.amazing_tour .amazing .get_more {
+  float: right;
+  margin-right: 259px;
+}
+
+.amazing_tour .amazing .book_now:hover,
+.amazing_tour .amazing .get_more:hover {
+  transition-delay: 0.2s;
+  background-color: #15cfe5;
+}
+
+.amazing_tour .amazing center ul li {
+  width: 900px;
+}
+
+/* Blog part of the Website................................................................................... */
+
+.blog {
+  width: 1880px;
+  margin: 0 auto;
+  height: 740px;
+  padding-top: 40px;
+  background-color: #fff;
+}
+
+.blog .blog_content {
+  width: 870px;
+}
+
+.blog .blog_content hr {
+  width: 100px;
+  height: 1px;
+  float: left;
+  margin-top: 25px;
+  background-color: #13aba6;
+}
+
+.blog .blog_content h2 {
+  float: left;
+  color: #0e0f10;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.blog .blog_content p {
+  color: #0e0f10;
+  font-size: 22px;
+  font-weight: normal;
+  padding-top: 24px;
+  text-align: center;
+  padding-bottom: 46px;
+}
+
+.blog .blog_content ul .left_list {
+  float: left;
+  margin-right: 20px;
+}
+
+.blog .blog_content ul .right_list {
+  float: right;
+}
+
+.blog .blog_content ul .left_list img,
+.blog .blog_content ul .right_list img {
+  width: 410px;
+  height: 267px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+/*.blog .blog_content ul li h6 {
+  color: #fff;
+  width: 132px;
+  line-height: 45px;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: #022739;
+} */
+
+.blog .blog_content ul .left_list h5,
+.blog .blog_content ul .right_list h5 {
+  color: #50b0ac;
+  font-size: 17px;
+  font-weight: normal;
+  padding-bottom: 18px;
+}
+
+.blog .blog_content ul .left_list span,
+.blog .blog_content ul .right_list span {
+  color: #0e0f10;
+  padding-bottom: 7px;
+}
+
+.blog .blog_content ul .left_list h3,
+.blog .blog_content ul .right_list h3 {
+  color: #0e0f10;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.blog .blog_content ul .left_list .left_text {
+  color: #0e0f10;
+  width: 410px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.blog .blog_content ul .right_list .right_text {
+  color: #0e0f10;
+  width: 410px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: justify;
+  float: right;
+  padding-right: 30px;
+}
+
+/* Footer Part of the Website................................................................................................................. */
+
+.footer {
+  width: 1880px;
+  height: 479px;
+  background-color: #022739;
+}
+
+.footer .footer_content {
+  width: 870px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.footer .footer_content .footer_list_1 {
+  float: left;
+  margin-right: 37px;
+}
+
+.footer .footer_content .footer_list_1 li img {
+  margin-right: 14px;
+  margin-bottom: 30px;
+}
+
+.footer .footer_content .footer_list_1 li h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.footer .footer_content .footer_list_1 li address {
+  color: #fff;
+  width: 200px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 36px;
+}
+
+.footer .footer_content .footer_list_2 {
+  float: left;
+  margin-right: 0px;
+}
+
+.footer .footer_content .footer_list_2 li h3,
+.footer .footer_content .footer_list_3 li h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.footer .footer_content .footer_list_2 nav ul {
+  margin-top: 34px;
+}
+
+.footer .footer_content .footer_list_2 nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.footer .footer_content .footer_list_2 nav ul li a:hover {
+  color: #13aba6;
+}
+
+.footer .footer_content .footer_list_3 {
+  float: right;
+}
+
+.footer .footer_content .footer_list_3 form {
+  width: 320px;
+  float: right;
+  margin-right: 30px;
+}
+
+.footer .footer_content .footer_list_3 h3 {
+  padding-bottom: 40px;
+}
+
+.footer .footer_content .footer_list_3 .user_name,
+.footer .footer_content .footer_list_3 .Email_adrs {
+  width: 148px;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+  outline: none;
+}
+
+.footer .footer_content .footer_list_3 .user_name {
+  float: left;
+  margin-right: 4px;
+}
+
+.footer .footer_content .footer_list_3 textarea {
+  width: 309px;
+  padding-left: 10px;
+  padding-top: 7px;
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: normal;
+  margin-bottom: 7px;
+  border: none;
+  outline: none;
+}
+
+.footer .footer_content .footer_list_3 textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.footer .footer_content .footer_list_3 button {
+  width: 128px;
+  color: #fff;
+  line-height: 43px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: normal;
+  float: right;
+  margin-bottom: 50px;
+  background-color: #13aba6;
+}
+
+.footer .footer_content .footer_list_3 button:hover {
+  cursor: pointer;
+  background-color: #11918d;
+}
+
+.footer .footer_content hr {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer .footer_content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer .footer_content span:hover {
+  color: #13aba6;
+  cursor: pointer;
+}

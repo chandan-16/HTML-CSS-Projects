@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #89c5c5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+form {
+  width: 348px;
+  height: 500px;
+  margin: 8% 42%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+form h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 18px;
+}
+
+form .user_name,
+form .user_password {
+  width: 252px;
+  color: #aeaeae;
+  line-height: 33px;
+  background-color: none;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-left: 13px;
+  margin-left: 40px;
+  border: solid 2px #86c8c6;
+}
+
+form .user_name:focus {
+  outline: none;
+  color: rgb(77, 77, 77);
+  border: solid 2px #86c8c6;
+}
+
+form .user_password:focus {
+  outline: none;
+  color: rgb(77, 77, 77);
+  border: solid 2px #86c8c6;
+}
+
+form .user_name {
+  margin-top: 19px;
+}
+
+form .user_password {
+  margin-top: 13px;
+}
+
+form .check_box {
+  width: 13px;
+  height: 13px;
+  border: none;
+  outline: none;
+  margin: 10px 0px 0px 40px;
+}
+
+form .remember {
+  color: #aeaeae;
+  font-size: 13px;
+  padding: 0px 0px 0px 0px;
+}
+
+form .forget_password {
+  float: right;
+  color: red;
+  font-size: 12px;
+  margin-right: 40px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+form .forget_password:hover {
+  color: darkmagenta;
+}
+
+form .login_bttn {
+  width: 70px;
+  height: 29px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 14px 0px 0px 139px;
+  background-color: #2dc2be;
+}
+
+form .login_bttn:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1d8683;
+}
+
+form center h4 {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+form center p1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form ul li {
+  float: left;
+  margin: 15px 0px 0px 0px;
+  list-style: none;
+}
+
+/* Twitter button Style */
+
+form ul li .twitter_btn,
+form ul li .facebook_btn,
+form ul li .google_btn {
+  width: 85px;
+  color: #fff;
+  height: 29px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 10px;
+  padding-left: 29px;
+  position: relative;
+}
+
+/* Button Eeects after hovering papa */
+
+form ul li .twitter_btn:hover {
+  cursor: pointer;
+  background-color: #48ceff;
+}
+
+form ul li .facebook_btn:hover {
+  cursor: pointer;
+  background-color: #4d9aff;
+}
+
+form ul li .google_btn:hover {
+  cursor: pointer;
+  background-color: #ff614d;
+}
+
+form ul li .fa-twitter:hover,
+form ul li .fa-facebook-f:hover,
+form ul li .fa-google-plus-g:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+form ul .twitter_left {
+  margin-left: 40px;
+}
+
+form ul .facebook_left {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+form ul li .twitter_btn {
+  background-color: #1cade2;
+}
+
+form ul li .fa-facebook-f {
+  background-color: #3a5898;
+}
+
+form ul li .google_btn {
+  background-color: #d34835;
+}
+
+form ul li .facebook_btn {
+  background-color: #3b5999;
+}
+
+/* Media Icons */
+
+form ul li .fa-twitter,
+form ul li .fa-facebook-f,
+form ul li .fa-google-plus-g {
+  color: #fff;
+  width: 29px;
+  line-height: 29px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+}
+
+form ul li .fa-twitter {
+  background-color: #1ba4d2;
+}
+
+form ul li .fa-facebook-f {
+  background-color: #34508f;
+}
+
+form ul li .fa-google-plus-g {
+  background-color: #c2492c;
+}
+
+form .horizontal_row {
+  width: 306px;
+  margin-top: 36px;
+  background-color: #c2c2c2;
+}
+
+form .no_account {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form .no_account a {
+  color: red;
+}
+
+form .no_account a:hover {
+  color: darkmagenta;
+}
+
+form .register_btn {
+  width: 110px;
+  color: #fff;
+  line-height: 28px;
+  margin-top: 19px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2dc2bc;
+}
+
+form .register_btn:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1d8683;
+}

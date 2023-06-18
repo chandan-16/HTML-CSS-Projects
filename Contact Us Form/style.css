@@ -1,0 +1,139 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+}
+
+.clear {
+	clear:both;
+}
+
+ul li {
+	float:left;
+	list-style-type:none;
+}
+
+.main form {
+	width:723px;
+	height:513px;
+	margin-left:37%;
+	margin-top:6%;
+	background-color:#f5f5f5;
+}
+
+.main form h3 {
+	color:#566787;
+	font-size:38px;
+	font-weight:400;
+	padding-top:25px;
+	padding-left:37px;
+}
+
+.main form p {
+	color:#566787;
+	font-size:18px;
+	padding-left:37px;
+	padding-top:18px;
+	padding-bottom:20px;
+}
+
+.main form .lbl1 {
+	color:#566787;
+	font-weight:bold;
+	padding-left:37px;
+	
+}
+
+.main form .lbl2 {
+	color:#566787;
+	font-weight:bold;
+	padding-left:30px;
+}
+
+.main form .input1 {
+	margin-left:35px;
+}
+
+.main form .input2{
+	margin-left:30px;
+}
+
+.main form .input1, .main form .input2 {
+	width:300px;
+	line-height:38px;
+	margin-top:8px;
+	padding-left:10px;
+	border:solid 1px #566787; 
+	background-color:#fff;
+	margin-bottom:15px;
+}
+
+.main form .lbl3 {
+	color:#566787;
+	font-weight:bold;
+	padding-left:37px;
+}
+
+.main form .lbl4 {
+	color:#566787;
+	font-weight:bold;
+	padding-left:37px;
+}
+
+.main form .email {
+	width:640px;
+	padding-left:10px;
+	line-height:38px;
+	margin-left:37px;
+	margin-top:8px;
+	margin-bottom:15px;
+	border:solid 1px #566787;
+}
+
+.main form .message {
+	width:640px;
+	height:94px;
+	padding-left:15px;
+	padding-top:10px;
+	margin-left:37px;
+	margin-top:8px;
+	border:solid 1px #566787;
+}
+
+.main form button {
+	width:150px;
+	line-height:38px;
+	border:none;
+	margin-left:38px;
+	margin-top:15px;
+	font-size:17px;
+	color:#fff;
+	border-radius:5px;
+	background-color:#299be4;
+}
+
+.main form button:hover {
+	border-radius:5px;
+	background-color:#1984C9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

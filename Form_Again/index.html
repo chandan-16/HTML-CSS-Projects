@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:wght@100;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+</head>
+<body>
+    
+<form action="GET" method="">
+
+    <h1>Registration</h1>
+    <div class="box"></div> <br/>
+
+    <ul class="list_1">
+        <li>
+            <label>Full Name</label> <br/>
+            <input type="text" placeholder="Samyak Gautam" value="User-name" required/>        
+        </li>
+
+        <li>
+            <label>Email</label> <br/>
+            <input type="email" placeholder="www.samyak@gmail.com" value="Email-address" required/>
+        </li>
+
+        <li>
+            <label>Password</label> <br/>
+            <input type="password" placeholder="Enter your password" value="Password" required/>
+        </li>
+
+    </ul>
+
+    <ul class="list_2">
+
+        <li>
+            <label>Username</label> <br/>
+            <input type="text" placeholder="buddhistme" required/>
+        </li>
+
+        <li>
+            <label>Phone Number</label> <br/>
+            <input type="number" placeholder="+91- 1234-00-5678" required/>
+        </li>
+
+        <li>
+            <label>Confirm Password</label> <br/>
+            <input type="password" placeholder="Confirm your password" required/>
+        </li>
+
+    </ul>
+
+    <div class="clear"></div>
+
+    <label class="Gender">Gender</label> <br/>
+
+        <input type="radio" value="male" name="gender" class="radio_btn"/>
+            <label class="gender_sectn">Male</label> 
+
+        <input type="radio" value="female" name="gender" class="radio_btn"/>
+            <label class="gender_sectn">Female</label>
+
+        <input type="radio" value="male" name="gender" class="radio_btn"/>
+            <label class="gender_sectn">Prefer not to say</label>
+
+    <input type="submit" value="Register" name="Register" class="register-btn"/>
+
+</form>
+
+</body>
+</html>

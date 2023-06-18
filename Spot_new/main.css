@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* New Spot top part of the one page template.................................................................................... */
+
+.Section_area {
+  width: 1400px;
+  height: 760px;
+  position: relative;
+  background: url(img/spot-bg-01.jpg);
+  clip-path: polygon(0% 0%, 100% -50%, 100% 85%, 0% 100%);
+}
+
+.Section_area .text_area {
+  width: 550px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 146px;
+  left: 194px;
+}
+
+.Section_area .text_area h1 {
+  color: #cc0064;
+  font-size: 54px;
+  font-weight: 100;
+  padding-top: 102px;
+  text-align: center;
+}
+
+.Section_area .text_area h4 {
+  color: #3195bf;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Section_area .text_area .text {
+  width: 354px;
+  margin: 40px 0px 0px 46px;
+}
+
+.Section_area .text_area .text p1 {
+  color: #6c6c6c;
+  width: 354px;
+  font-size: 17px;
+  display: flex;
+  line-height: 35px;
+  padding: 0px 0px 38px 32px;
+}
+
+.Section_area .text_area .text a {
+  color: #fff;
+  width: 151px;
+  line-height: 49px;
+  text-align: center;
+  display: block;
+  font-size: 19px;
+  margin-left: 150px;
+  border-radius: 10px;
+  background-color: #0095bf;
+}
+
+.Section_area .text_area .text a:hover {
+  background-color: #017c9e;
+}
+
+/* Section 2 part of the one page template......................................................................................== */
+
+.section_2 {
+  width: 1400px;
+  height: 1060px;
+  background-color: #fff;
+  transform: translateY(-160px);
+  position: relative;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 66%);
+}
+
+.section_2 .text_area {
+  width: 400px;
+  float: left;
+  position: absolute;
+  margin: 170px 0px 0px 112px;
+}
+
+.section_2 .text_area h6 {
+  color: #3195bf;
+  font-size: 36px;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px 0px 40px 0px;
+}
+
+.section_2 .text_area .text {
+  margin-left: 15px;
+}
+
+.section_2 .text_area .text p1,
+.section_2 .text_area .text p2,
+.section_3 .text_box .text p1 {
+  color: #6c6c84;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 4px;
+  word-spacing: 6px;
+}
+
+.section_2 .text_area .text a {
+  color: #fff;
+  width: 151px;
+  line-height: 49px;
+  text-align: center;
+  display: block;
+  font-size: 19px;
+  margin-top: 60px;
+  margin-left: 268px;
+  border-radius: 10px;
+  background-color: #0095bf;
+}
+
+.section_2 .text_area .text a:hover {
+  background-color: #017c9e;
+}
+
+.section_2 .butterfly {
+  right: 194px;
+  top: 130px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* Third Section part of the one page template................................................................................... */
+
+.section_3 {
+  width: 1400px;
+  height: 1160px;
+  background-color: rgb(255, 28, 28);
+  transform: translateY(-572px);
+  position: relative;
+  background: url(img/spot-bg-02.jpg);
+  clip-path: polygon(0% 5%, 100% 20%, 100% 66%, 0% 80%);
+}
+
+.section_3 .text_box {
+  width: 550px;
+  height: 550px;
+  top: 215px;
+  left: 194px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.section_3 .text_box h4 {
+  color: #cc0064;
+  font-size: 32px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 110px;
+  float: left;
+}
+
+.section_3 .text_box .text {
+  width: 355px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.section_3 .text_box .text ul li {
+  margin-top: 27px;
+}
+
+.section_3 .text_box .text ul li h6 {
+  color: #6c6c84;
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 22px;
+}
+
+/* Final section part of the one page template.................................................................................... */
+
+.section_4 {
+  width: 1400px;
+  height: 960px;
+  background-color: #fff;
+  position: relative;
+  transform: translateY(-1240px);
+  clip-path: polygon(0% 45%, 100% 26%, 100% 100%, 0% 100%);
+}
+
+.section_4 form {
+  width: 550px;
+  top: 470px;
+  left: 150px;
+  position: absolute;
+}
+
+.section_4 form .name,
+.section_4 form .email {
+  width: 272px;
+  line-height: 39px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: solid 1px #cc0064;
+}
+
+.section_4 form .email {
+  margin-top: 10px;
+}
+
+.section_4 form .message {
+  width: 280px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  margin-top: 10px;
+  color: grey;
+  font-weight: 100;
+  border-bottom: solid 1px #cc0064;
+}
+
+.section_4 form a {
+  width: 105px;
+  color: #fff;
+  line-height: 46px;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: #cc0064;
+  margin: 35px 0px 0px 180px;
+}
+
+.section_4 form .copyright {
+  color: grey;
+  font-size: 15px;
+  width: 550px;
+  line-height: 1px;
+  display: block;
+  padding-top: 140px;
+}
+
+.section_4 form .copyright span:hover {
+  color: #cc0064;
+  cursor: pointer;
+}
+
+.section_4 img {
+  position: absolute;
+  top: 355px;
+  right: 194px;
+  border-radius: 50%;
+}

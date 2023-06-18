@@ -1,0 +1,1022 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 1366px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+  src: url(Fonts/Barlow-BlackItalic.ttf);
+  font-family: Barlow-bold;
+}
+
+@font-face {
+  src: url(Fonts/Barlow-Light.ttf);
+  font-family: Barlow;
+}
+
+@font-face {
+  src: url(Fonts/Barlow-Regular.ttf);
+  font-family: Barlow-Regular;
+}
+
+@font-face {
+  src: url(Fonts/Barlow-Thin.ttf);
+  font-family: Barlow-Thin;
+}
+
+@font-face {
+  src: url(Fonts/Barlow-Bold.ttf);
+  font-family: Barlow-Bold;
+}
+
+@font-face {
+  src: url(Fonts/Barlow-Black.ttf);
+  font-family: Barlow-Black;
+}
+
+/* Header Part of the Website..................................................................... */
+
+.header-logo-part {
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+}
+
+.container-no-1 {
+  height: 75px;
+}
+
+.container-no-2 {
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-no-4 {
+  padding-top: 170px;
+}
+
+.container-no-1,
+.container-no-2,
+.container-no-4,
+.container-no-5,
+.container-no-6 {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.list-one ul {
+  display: flex;
+  padding-top: 14px;
+  justify-content: space-between;
+}
+
+.container-no-1 h1 {
+  color: #e81c2e;
+  font-size: 56px;
+  font-style: italic;
+  letter-spacing: -1px;
+  float: left;
+  margin-right: 250px;
+  font-family: Barlow-Black;
+}
+
+.container-no-1 span {
+  color: #202c45;
+}
+
+.list-one li h6 {
+  color: #202c45;
+  font-size: 18px;
+  padding-bottom: 3px;
+  font-family: Barlow-Regular;
+}
+
+.list-one li p1 {
+  color: #202c45;
+  font-size: 14px;
+  font-family: Barlow-Regular;
+}
+
+.Sub-icons {
+  float: left;
+  color: #202c45;
+}
+
+.Sub-icons .fa-clock {
+  font-size: 70px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #202c45;
+}
+
+.navitation-section {
+  width: 100%;
+  height: 96px;
+  background-color: #202c45;
+}
+
+.container-no-2 nav li {
+  float: left;
+  margin-top: 36px;
+}
+
+.container-no-2 nav li .fa-sort-down {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.container-no-2 nav li {
+  position: relative;
+  opacity: 1;
+}
+
+.container-no-2 nav li a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-right: 36px;
+  font-family: Barlow-Regular;
+}
+
+/* Below Level_1 a lising anchors to be fixed anyhow................... */
+
+.level_1 a {
+  width: 220px;
+  line-height: 45px;
+  color: red;
+  font-weight: bolder;
+  font-size: 18px;
+  top: 45px;
+  z-index: 1;
+  left: -170px;
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  border-bottom: solid 1px #fff;
+  font-family: Barlow-Regular;
+}
+
+.container-no-2 nav li:hover .level-1 {
+  opacity: 1;
+}
+
+.container-no-2 nav li a:hover {
+  color: #e81c2e;
+  transition-timing-function: ease-out;
+}
+
+.container-no-2 .appointment-btn {
+  color: #202c45;
+  font-size: 17px;
+  width: 180px;
+  line-height: 46px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  margin-top: 23px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-family: Barlow-Regular;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.container-no-2 .appointment-btn::before {
+  content: "Get Appointment";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: -180px;
+  color: #fff;
+  transition: all 0.5s;
+  border-radius: 50px;
+  font-family: Barlow-Regular;
+  background-color: #e81c2e;
+}
+
+.appointment-btn:hover::before {
+  color: #fff;
+  left: 0px;
+}
+
+/* Banner part of the Website.......................................................................... */
+
+.banner {
+  width: 1366px;
+  height: 800px;
+  margin: 0 auto;
+  background: url(img/carousel-3.jpg);
+}
+
+.hidden-box {
+  width: 1366px;
+  height: 800px;
+  opacity: 0.8;
+  background-color: black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-detail {
+  width: 805px;
+  margin: auto;
+}
+
+.banner-detail h5 {
+  color: #e81c2e;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Barlow-Bold;
+}
+
+.banner-detail h1 {
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  font-family: Barlow-Bold;
+  line-height: 120px;
+  padding-bottom: 28px;
+}
+
+.banner-detail p {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 40px;
+  font-family: Barlow-Regular;
+}
+
+.explore-align {
+  width: 850px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-detail .explore-btn {
+  color: #fff;
+  width: 182px;
+  line-height: 66px;
+  text-align: center;
+  display: block;
+  border-radius: 50px;
+  font-family: Barlow-Regular;
+  background-color: #e81c2e;
+}
+
+/* Washing & Detailing part of the Website............................................................ */
+
+.wash-dtil-container {
+  width: 100%;
+  height: 744px;
+  background-color: #fff;
+}
+
+.container-no-4 {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-no-4 .About_Image {
+  width: 500px;
+  height: 550px;
+  border-radius: 7px;
+  box-shadow: 1px 0px 15px 0px grey;
+}
+
+.container-no-4 .about-datail {
+  margin-top: 165px;
+}
+
+.container-no-4 .about-datail li h6 {
+  color: #e81c2e;
+  font-size: 17px;
+  word-spacing: 6px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  font-family: Barlow-Regular;
+}
+
+.container-no-4 .about-datail li hr {
+  width: 54px;
+  height: 2px;
+  background-color: #e81c2e;
+  margin-bottom: 17px;
+  border: none;
+}
+
+.container-no-4 .about-datail li h1 {
+  color: #202c45;
+  font-size: 52px;
+  padding-bottom: 24px;
+  font-family: Barlow-Bold;
+}
+
+.container-no-4 .about-datail li p2 {
+  color: #202c45;
+  width: 610px;
+  font-size: 18px;
+  line-height: 26px;
+  display: block;
+  font-family: Barlow-Regular;
+}
+
+.service_list {
+  margin-top: 16px;
+}
+
+.service_list li a {
+  color: #202c45;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Barlow;
+}
+
+/* Premium Washing Services part of the Website.......................................................... */
+
+.premium_washser_bg {
+  width: 100%;
+  height: 720px;
+  background-color: #fff;
+}
+
+.container-no-5 h5 {
+  color: #e81c2e;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: Barlow-Regular;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.container-no-5 .bottom-line {
+  width: 70px;
+  height: 3px;
+  border: none;
+  outline: none;
+  background-color: #e81c2e;
+  margin: 0 auto;
+}
+
+.container-no-5 h1 {
+  color: #202c45;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-family: Barlow-Bold;
+}
+
+.container-no-5 ul {
+  margin-top: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-no-5 ul li {
+  width: 244px;
+}
+
+.container-no-5 ul li .fa-car,
+.fas,
+.far,
+.fa-soap,
+.fa-border-style,
+.fa-gas-pump {
+  font-size: 60px;
+  color: #e81c2e;
+  padding-bottom: 10px;
+  text-shadow: 1px 0px 4px grey;
+}
+
+.container-no-5 ul li h4 {
+  color: #202c45;
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-family: Barlow-Bold;
+}
+
+.container-no-5 ul li p5 {
+  color: #202c45;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  font-family: Barlow-Regular;
+}
+
+/* Achievement part of the Website........................................................................ */
+
+.achievement_bg {
+  width: 100%;
+  height: 400px;
+  background-color: #465b88;
+}
+
+.achievement_list {
+  display: flex;
+  align-content: center;
+  padding-top: 146px;
+  justify-content: space-between;
+}
+
+.achievement_list li .fa-map-marker-alt,
+.fa-user,
+.fa-users,
+.fa-check {
+  text-shadow: none;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 36px;
+  display: inline;
+}
+
+.achievement_list li p sup {
+  font-family: Barlow-Regular;
+}
+
+.container-no-6 .achievement_list li p {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bolder;
+  display: inline;
+  padding-left: 5px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: Barlow-Bold;
+}
+
+.achievement_list li h6 {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 40px;
+  font-family: Barlow-Regular;
+}
+
+/* Choosing part of the Website..........................................................................*/
+
+.container-part-7,
+.container-part-8,
+.container-part-9,
+.container-part-10 {
+  width: 45%;
+  height: 610px;
+  margin: 0 auto;
+}
+
+.choosing_part_bg {
+  width: 100%;
+  height: 818px;
+  background-color: rgb(218, 218, 218);
+}
+
+.choosing_part_bg .container-no-7 h6 {
+  color: #e81c2e;
+  font-size: 17px;
+  letter-spacing: 6px;
+  padding-bottom: 9px;
+  padding-top: 98px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Barlow-Regular;
+}
+
+.container-no-7 .bottom_line {
+  width: 54px;
+  height: 2px;
+  background-color: #e81c2e;
+  margin-bottom: 17px;
+  border: none;
+}
+
+/* Washing Point part of the Website...................................................................... */
+
+.washing_point_part {
+  width: 100%;
+  height: 620px;
+  background-color: rgb(255, 255, 255);
+}
+
+.asside_content_container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.aside_container_1 span {
+  text-decoration: underline;
+}
+
+.aside_container_1 h6 {
+  color: #e81c2e;
+  font-size: 17px;
+  letter-spacing: 6px;
+  text-align: left;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-family: Barlow-Regular;
+}
+
+.aside_container_1 hr {
+  width: 110px;
+  height: 2px;
+  border: none;
+  margin-bottom: 17px;
+  background-color: #e81c2e;
+}
+
+.aside_container_1 h1 {
+  color: #202c45;
+  font-size: 46px;
+  font-family: Barlow-Bold;
+}
+
+.icon-list-lction {
+  float: left;
+}
+
+.aside_container_1 ul li .fa-map-marker-alt {
+  color: #e81c2e;
+  font-size: 30px;
+  margin-right: 12px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.aside_container_1 ul li h5 {
+  color: #202c45;
+  font-size: 20px;
+  position: relative;
+  padding-left: 30px;
+  font-family: Barlow-Bold;
+}
+
+.aside_container_1 ul {
+  margin-top: 50px;
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+}
+
+.aside_container_1 ul li p1 {
+  width: 230px;
+  color: #202c45;
+  font-size: 17px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  display: inline-block;
+  font-family: Barlow-Regular;
+}
+
+.aside_container_2 .login_form {
+  width: 77%;
+  height: 528px;
+  border-radius: 7px;
+  padding-left: 50px;
+  float: right;
+  background-color: #e81c2e;
+}
+
+.aside_container_2 .login_form h4 {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 44px;
+  padding-bottom: 24px;
+  font-family: Barlow-Bold;
+}
+
+.aside_container_2 .login_form .username,
+.aside_container_2 .login_form .email_field,
+.aside_container_2 .login_form.submit_btn {
+  line-height: 42px;
+}
+
+.aside_container_2 .login_form .username,
+.aside_container_2 .login_form .email_field,
+.aside_container_2 .login_form .description_field,
+.aside_container_2 .login_form .submit_btn {
+  width: 86%;
+  color: #fff;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: solid 1px #fff;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 15px;
+  background-color: #e81c2e;
+  font-family: Barlow-Regular;
+}
+
+.aside_container_2 .login_form .description_field {
+  padding-top: 15px;
+  height: 180px;
+}
+
+.aside_container_2 .login_form .submit_btn {
+  display: block;
+  color: #e81c2e;
+  line-height: 50px;
+  border-radius: 50px;
+  width: 90%;
+  background-color: #fff;
+}
+
+.aside_container_2 .login_form .submit_btn:hover {
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #202c45;
+}
+
+/* Team Member part of the Website.......................................................................... */
+
+.team_member_bg {
+  width: 100%;
+  height: 640px;
+}
+
+.container-part-8 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-part-8 h5,
+.container-part-9 h5 {
+  color: #e81c2e;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: Barlow-Regular;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.container-part-8 h1,
+.container-part-9 h1 {
+  color: #202c45;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-family: Barlow-Bold;
+  text-transform: uppercase;
+}
+
+.container-part-8 hr,
+.container-part-9 hr {
+  width: 74px;
+  height: 2px;
+  background-color: #e81c2e;
+  margin-bottom: 17px;
+  border: none;
+  margin: auto;
+}
+
+.container-part-8 ul .sub_list_1 {
+  width: 270px;
+  height: 390px;
+  z-index: 1;
+  background-color: olivedrab;
+  border-radius: 7px;
+  position: relative;
+}
+
+.container-part-8 ul .sub_list_1 .image_1 {
+  width: 100%;
+  height: 75%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: all 0.5s;
+  transform: scale(1, 1);
+  position: absolute;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.container-part-8 ul .sub_list_1:hover .image_1 {
+  transform: scale(1.09);
+}
+
+.container-part-8 ul .sub_list_1 .box_1 {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.container-part-8 ul .sub_list_1 .bottom_box {
+  width: 100%;
+  height: 40%;
+  background-color: #202c45;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.container-part-8 ul .sub_list_1:hover .bottom_box {
+  background-color: #e81c2e;
+}
+
+/*
+.sub_list_1 .listing a .fa-twitter,
+.sub_list_1 .listing a.facebook-f,
+.sub_list_1 .fa-linkedin-in,
+.sub_list_1 .fa-instagram {
+  color: #fff;
+  width: 40px;
+  line-height: 40px;
+  z-index: 1;
+  border-radius: 50px;
+  font-size: 22px;
+  position: absolute;
+  background-color: #202c45;
+  background-color: red;
+}
+
+.sub_list_1 .listing a {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #202c45;
+}
+
+*/
+
+.container-part-8 ul .sub_list_1 .bottom_box h4 {
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+  font-family: Barlow-Regular;
+}
+
+.container-part-8 ul .sub_list_1 .bottom_box p1 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 105px;
+  font-family: Barlow-Regular;
+}
+
+.sub_list_1:hover .bottom_box {
+  background-color: #e81c2e;
+}
+
+/* Blog Section part of the website....................................................................... */
+
+.blog_section_bg {
+  width: 100%;
+  height: 610px;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-part-9 h1 {
+  padding-bottom: 40px;
+  text-transform: initial;
+}
+
+.container-part-9 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-part-9 ul li {
+  width: 350px;
+}
+
+.container-part-9 ul li img {
+  width: 350px;
+  height: 220px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.container-part-9 ul li p1 {
+  display: inline-block;
+  font-size: 16px;
+  color: #465b88;
+  line-height: 24px;
+  font-family: Barlow-Regular;
+}
+
+.container-part-9 ul li a {
+  color: #465b88;
+  font-size: 16px;
+  padding: 0px 10px 0px 4px;
+  text-align: center;
+  font-family: Barlow-Regular;
+  border-right: solid 1px #999999;
+}
+
+.container-part-9 ul li a:hover {
+  color: #e81c2e;
+}
+
+.container-part-9 ul li .fa-user,
+.container-part-9 ul li .fa-folder,
+.container-part-9 ul li .fa-comments {
+  color: #465b88;
+  font-size: 16px;
+  padding-right: 5px;
+  text-shadow: none;
+  line-height: 0px;
+}
+
+/*
+.container-part-9 ul li:hover .fa-user {
+  color: #e81c2e;
+}
+.container-part-9 ul li:hover .fa-folder {
+  color: #e81c2e;
+}
+.container-part-9 ul li:hover .fa-comments {
+  color: #e81c2e;
+}
+*/
+
+/* Footer Part of the Website............................................................................... */
+
+.footer_section_bg {
+  width: 100%;
+  height: 440px;
+  position: relative;
+  background-color: #202c45;
+}
+
+.container-part-10 {
+  height: 440px;
+}
+
+.main_content_futer {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_content_futer .main_list,
+.main_content_futer .footer_form {
+  width: 304px;
+}
+
+.main_content_futer .main_list h4,
+.main_content_futer .main_list_2 h4,
+.main_content_futer .footer_form h4 {
+  color: #e81c2e;
+  font-size: 24px;
+  letter-spacing: 3px;
+  padding-bottom: 34px;
+  font-family: Barlow-Bold;
+}
+
+.main_content_futer .main_list .fa-map-marker-alt,
+.main_content_futer .main_list .fa-phone-alt,
+.main_content_futer .main_list .fa-envelope {
+  color: #fff;
+  font-size: 17px;
+  text-shadow: none;
+}
+
+.main_content_futer .main_list p2 {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 16px;
+  font-family: Barlow-Regular;
+  display: inline-block;
+}
+
+.main_content_futer .main_list li {
+  margin-right: 3px;
+}
+
+/*
+.main_content_futer .main_list li .fab {
+  color: #202c45;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 40px;
+  background-color: #fff;
+}
+*/
+
+.main_list a,
+.main_list_2 a {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 18px;
+  display: block;
+  transition: ease-out;
+  transform: translateX(0px);
+  font-family: Barlow-Regular;
+}
+
+.main_list a:hover,
+.main_list_2 a:hover {
+  color: #e81c2e;
+  transition: all 0.3s;
+  font-family: Barlow-Regular;
+  transform: translateX(10px);
+}
+
+.footer_form .input_section,
+.footer_form .email_section {
+  color: #fff;
+  background-color: #202c45;
+}
+
+.footer_form .input_section,
+.footer_form .email_section,
+.footer_form .submit_btn {
+  width: 99%;
+  color: #fff;
+  height: 42px;
+  font-size: 15px;
+  padding-left: 10px;
+  outline: none;
+  display: inline-block;
+  border-radius: 7px;
+  margin-bottom: 14px;
+  border: solid 1px #fff;
+  font-family: Barlow-Regular;
+}
+
+.footer_form .submit_btn {
+  color: #202c45;
+  border: none;
+  width: 103%;
+  height: 50px;
+  margin-top: 7px;
+  padding-left: 7px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.footer_form .submit_btn:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e81c2e;
+}
+
+.container-part-10 .website-owner {
+  color: #e81c2e;
+}
+
+.container-part-10 h5 {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Barlow-Bold;
+}

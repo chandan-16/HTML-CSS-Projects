@@ -1,0 +1,74 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color:#3598dc;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+form {
+	width:295px;
+	height:300px;
+	margin:0 auto;
+	margin-top:250px;
+	border-radius:7px;
+	background-color:#fff;
+}
+
+form h3 {
+	color:#7b7e85;
+	font-size:35px;
+	font-weight:bold;
+	text-align: center;
+	padding-top:40px;
+}
+
+form .user {
+	margin-top:22px;
+}
+
+form .user:active {
+	border:none;
+}
+
+form input, form .user {
+	width:245px;
+	line-height:42px;
+	text-align: center;
+	border:none;
+	font-size:16px;
+	background-color:#ecf0f1;
+	margin-left:25px;
+	margin-bottom:10px;
+}
+
+form .login {
+	color:#fff;
+	width:245px;
+	line-height:42px;
+	text-align: center;
+	border:none;
+	font-size:16px;
+	margin-left:25px;
+	margin-bottom:10px;
+	background-color:#FF3AC0;
+	
+}
+
+form .login:hover {
+	background-color:#3598dc;
+}
+
+form a {
+	color:#000;
+	font-size:12px;
+	text-align: center;
+	padding-top:15px;
+	padding-left:90px;
+}
+
+
+
+

@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clear {
+  clear: left;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, #ed0cfc, #0cd0e0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 408px;
+  height: 635px;
+  margin: auto;
+  position: absolute;
+  top: 12%;
+  left: 43%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+form h1 {
+  color: #000;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 70px;
+  letter-spacing: 0px;
+}
+
+form .email,
+form .password {
+  width: 311px;
+  line-height: 48px;
+  outline: none;
+  font-size: 17px;
+  background-color: none;
+  padding-left: 15px;
+  margin-left: 40px;
+  border: solid 2px #d3d3d3;
+}
+
+form .email {
+  margin-top: 56px;
+}
+
+form .password {
+  margin-top: 24px;
+}
+
+form button {
+  width: 329px;
+  color: #fff;
+  line-height: 48px;
+  border: none;
+  outline: none;
+  margin: 30px 0px 38px 40px;
+  font-size: 19px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #ed0cfc, #0cd0e0);
+}
+
+form button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left, #ed0cfc, #0cd0e0);
+}
+
+form p1 {
+  color: #928796;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+form .facebook_button,
+form .google_button {
+  width: 140px;
+  line-height: 38px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  border: solid 2px #dfdfdf;
+}
+
+form .facebook_button {
+  color: #4267bd;
+  float: left;
+  margin-left: 47px;
+  margin-right: 20px;
+}
+
+form .facebook_button:hover {
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: #4267b2;
+}
+
+form .google_button {
+  color: #dd4b39;
+  float: right;
+  margin-right: 49px;
+}
+
+form .google_button:hover {
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: #dd4b39;
+}
+
+form p {
+  color: #000;
+  font-size: 14px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+form p a {
+  color: #3d9ee3;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+form p a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}

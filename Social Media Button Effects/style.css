@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ff4d50;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container of the Buttons */
+
+.container_1,
+.container_2,
+.container_3,
+.container_4 {
+  width: 450px;
+  float: left;
+  line-height: 75px;
+  position: relative;
+  margin: 500px 0px 0px 150px;
+}
+
+.container_1 button,
+.container_2 button,
+.container_3 button,
+.container_4 button {
+  width: 450px;
+  height: 75px;
+  outline: none;
+  border: none;
+  z-index: 1;
+  position: absolute;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+.container_1 button {
+  transform: rotate(0deg);
+  transform-origin: top left;
+}
+
+.container_2 button {
+  transform: rotate(0deg);
+  transform-origin: top right;
+}
+
+.container_3 button,
+.container_4 button {
+  transform: translateY(0px);
+}
+
+/* Effect One */
+
+.container_1:hover button {
+  cursor: pointer;
+  transform: rotate(-75deg);
+}
+
+/* Effect Two */
+
+.container_2:hover button {
+  cursor: pointer;
+  transform: rotate(75deg);
+}
+
+/* Effect Three */
+
+.container_3:hover button {
+  transform: translateY(-75px);
+}
+
+/* Effect Four */
+
+.container_4:hover button {
+  transform: translateY(75px);
+}
+
+.container_1 button .fa-instagram,
+.container_2 button .fa-github,
+.container_3 button .fa-telegram,
+.container_4 button .fa-youtube {
+  font-size: 55px;
+  color: #ff4d50;
+}
+
+/* Link to social Media platforms..! */
+
+.container_1 a,
+.container_2 a,
+.container_3 a,
+.container_4 a {
+  color: #fff;
+  width: 450px;
+  line-height: 75px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(32, 32, 32);
+}
+
+.container_1 a:hover,
+.container_2 a:hover,
+.container_3 a:hover,
+.container_4 a:hover {
+  color: #ff4d50;
+  text-decoration: underline;
+}
